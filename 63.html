@@ -1,0 +1,100 @@
+<html>
+<head>
+       <title>my form</title>
+       <style>
+       img{
+        margin-left:40%;
+        background-color:black;
+        padding:10px;
+}
+#divya{
+      margin-left:20%;
+      margin-right:20%;
+      background-color:skyblue;
+}
+.deep{
+      margin-left:20%;
+      margin-right:20%;
+      padding:15px;
+
+      background-color:yellow;
+}
+.deep:hover{
+background-color:white;
+}
+      
+
+       </style>
+</head>
+<body>
+<img src="pavi.jpg" alt="user logo" width="200px" height="200px"/>
+<fieldset id="divya">
+    <legend>registration form</legend>
+    <form action="" method="post" class="deep">
+    <table>
+       <tr>
+       <td>username:</td> 
+       <td><input type="text" name="urname" placeholder="enter your name" required ></td>
+       </tr>
+       <tr>
+       <td>password:</td> 
+       <td><input type="password" name="urpass" placeholder="enter your password" required ></td>
+       </tr>
+       <tr>
+       <td>mobile.no:</td> 
+       <td><input type="number" name="urmob" placeholder="enter your mobile.no" required ></td>
+     
+       </tr>
+<tr>
+       <td>email:</td> 
+       <td><input type="email" name="uremail" placeholder="enter your email" required ></td>
+       </tr>
+<tr>
+       <td>DOB:</td> 
+       <td><input type="date" name="urdob" required ></td>
+       </tr>
+<tr>
+       <td>gender:</td> 
+       <td><input type="radio" name="urgender" value="male" required>Male
+            <input type="radio" name="urgender" value="female" required>Female
+            <input type="radio" name="urgender" value="other" required>other</td>
+       </tr>
+ <tr>
+       <td>type of user:</td> 
+       <td>
+         <select name="utype">
+            <option value="1">1st year</option>
+            <option value="2">2nd year</option>
+            <option value="3">3rd year</option>
+            <option value="4">4th year</option>
+         </select>
+         </td>
+       </tr>
+      <tr>
+          <td>profile pic:</td>
+          <td><input type="file" name="urfile"></td>
+      </tr>
+     <tr>
+         <td><input type="checkbox" value="i"> i accept the terms and conditions</td>
+      </tr>
+       <tr>
+       <td><input type="submit" value="register"></td>
+       <td><input type="reset" value="clear"></td>
+       </tr>
+
+
+
+
+
+         
+
+
+
+
+   </table>
+
+   </form>
+
+</fieldset>
+</body>
+</html>
